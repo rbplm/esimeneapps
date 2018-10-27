@@ -59,6 +59,7 @@
     <Compile Include="..\..\..\..\..\Desktop\robypalumaegit\MainActivity.cs">
       <Link>MainActivity.cs</Link>
     </Compile>
+    <Compile Include="ListOfThingsActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="secondactivity.cs" />
@@ -105,6 +106,11 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\vewViewLayout.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\ListLayout.axml">
       <SubType>Designer</SubType>
     </AndroidResource>
   </ItemGroup>
